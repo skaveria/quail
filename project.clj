@@ -3,4 +3,5 @@
   :dependencies [[org.clojure/clojure "1.12.2"]
                  [ring/ring-core "1.15.0"]
                  [ring/ring-jetty-adapter "1.15.0"]]
-  :main quail.core)
+  :main quail.core
+  :profiles {:dev {:source-paths ["dev"]}})
